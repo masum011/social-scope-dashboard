@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #00000029;
+}
+.login{
+    background-color: #ec4862;
+    color: white;
+}
+
+.signup-container{
+    width: 450px;
+    text-align: center;
+    background-color: white;
+    padding: 2em;
+    border-radius: 2px;
+}
+.group-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+}
+.btn{
+    border: none;
+    padding-inline: 2.5em;
+}
+.btn:hover{
+    opacity: .7;
+}
